@@ -4,19 +4,18 @@ This repository contains a retrieval pipeline for the Manakin Parasite Taxonomy 
 
 ## Getting Started
 
-To launch the app and try it out locally:
+Using Python 3.10.12, run the following commands from the root directory:
 
 ```bash
-uvicorn app.main:app --reload
+python3.10 -m venv venv
+source venv/bin/activate
 ```
 
-Once the server is running, open your browser and navigate to:
+Then, install the necessary dependencies:
 
+```bash
+pip install -r requirements.txt
 ```
-http://localhost:8000/docs
-```
-
-This will bring up the interactive Swagger UI where you can explore and test the API routes.
 
 ## Setup Instructions
 
@@ -34,6 +33,22 @@ PINECONE_API_KEY=your-api-key-here
 PINECONE_ENV=us-west-1
 PINECONE_INDEX_NAME=manakin-parasite-index
 ```
+
+## Testing
+
+To launch the app and try it out locally:
+
+```bash
+uvicorn app.main:app --reload
+```
+
+Once the server is running, open your browser and navigate to:
+
+```
+http://127.0.0.1:8000/docs
+```
+
+This will bring up the interactive Swagger UI where you can explore and test the API routes.
 
 ## License
 
