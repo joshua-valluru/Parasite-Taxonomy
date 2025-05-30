@@ -1,0 +1,38 @@
+# === Python-related ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# === Virtual Environments ===
+venv/
+env/
+.venv/
+ENV/
+
+# === Environment / Secret Files ===
+.env
+*.env
+
+# === Logs and Runtime Files ===
+*.log
+*.pid
+
+# === IDEs and Editors ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Compiled / Build Files ===
+*.egg-info/
+dist/
+build/
+
+# === Jupyter Notebook Checkpoints ===
+.ipynb_checkpoints/
