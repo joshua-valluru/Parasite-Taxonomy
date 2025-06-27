@@ -11,7 +11,6 @@ def image_to_vector(image_array: np.ndarray) -> list:
     """
     Encodes an image into a feature vector using DINOv2.
     """
-    # image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
     image = Image.fromarray(image_array.astype(np.uint8))
     inputs = dino_processor(images=image, return_tensors="pt")
 
