@@ -1,6 +1,6 @@
-# Manakin Parasite Taxonomy Retrieval Pipeline
+# Parasite Taxonomy Retrieval Pipeline
 
-This repository contains a retrieval pipeline for the Manakin Parasite Taxonomy project, including preprocessing steps. The system is designed to allow users to upload parasite dye sample data and retrieve the most relevant samples using similarity search.
+This repository contains a retrieval pipeline for a Parasite Taxonomy project, including preprocessing steps. The system is designed to allow users to upload parasite dye sample data and retrieve the most relevant samples using similarity search.
 
 ## Getting Started
 
@@ -30,8 +30,8 @@ The `.env` file should be placed in the root directory of the project.
 Example `.env` file:
 ```env
 PINECONE_API_KEY=your-api-key-here
-PINECONE_ENV=us-west-1
-PINECONE_INDEX_NAME=manakin-parasite-index
+PINECONE_ENV=your-env-here
+PINECONE_INDEX_NAME=your-index-here
 ```
 
 ## Testing
